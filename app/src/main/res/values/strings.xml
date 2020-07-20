@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">Moroccan Cuisine</string>
+    <string name="done">Done</string>
+
+
+    <string name="foodImageTransition">foodImageTransition</string>
+    <string name="foodTitleTransition">foodTitleTransition</string>
+
+
+<!--    Hints-->
+    <string name="foodTitleHint">Food name</string>
+    <string name="foodImageHint">Food image</string>
+    <string name="foodRecipeHint">Food recipe</string>
+
+<!--    Admob-->
+<!--    <string name="addMobAppId">ca-app-pub-3940256099942544~3347511713</string>-->
+<!--    <string name="addMobUnitId">ca-app-pub-3940256099942544/6300978111</string>-->
+    <string name="addMobAppId">ca-app-pub-6893006288721294~5220282991</string>
+    <string name="addMobUnitId">ca-app-pub-6893006288721294/7491223114</string>
 </resources>
