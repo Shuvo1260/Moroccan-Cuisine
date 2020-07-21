@@ -4,10 +4,11 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_margin="@dimen/_5sdp"
+    android:layout_marginVertical="@dimen/_5sdp"
+    android:layout_marginHorizontal="@dimen/_10sdp"
     app:cardCornerRadius="@dimen/_15sdp"
     android:elevation="@dimen/_15sdp"
-    app:cardElevation="@dimen/_25sdp"
+    app:cardElevation="@dimen/_15sdp"
     >
 
     <LinearLayout

@@ -6,7 +6,9 @@ import java.nio.ByteBuffer
 
 class Config {
     companion object {
-        val FOOD_INFORMATION = "FoodInformation"
+        val FOOD_TITLE = "FoodTitle"
+        val FOOD_RECIPE = "FoodRecipe"
+        val FOOD_IMAGE = "FoodImage"
 
 
         // Toolbar

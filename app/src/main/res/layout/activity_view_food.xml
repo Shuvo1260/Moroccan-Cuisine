@@ -33,12 +33,14 @@
                     android:orientation="vertical"
                     >
                     <ImageView
+                        android:id="@+id/foodImage"
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/_200sdp"
                         android:src="@drawable/splash_screen_background"
                         android:transitionName="@string/foodImageTransition"
                         />
                     <TextView
+                        android:id="@+id/foodTitle"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:gravity="center"
@@ -51,6 +53,7 @@
                         />
 
                     <TextView
+                        android:id="@+id/foodRecipe"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         tools:text="@string/app_name"

@@ -1,5 +1,6 @@
 package org.binaryitplanet.moroccancuisine.Features.View
 
+import android.os.Build
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -20,22 +21,28 @@ class ViewFood : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_view_food)
 
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            window.enterTransition = null
+        }
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_view_food)
 
         setupAdMob()
 
         setUpToolbar()
+    }
 
+    override fun onResume() {
+        super.onResume()
+        val foodTitle = intent.getStringExtra(Config.FOOD_TITLE)
+        val foodRecipe = intent.getStringExtra(Config.FOOD_RECIPE)
+        val foodImage = intent.getIntExtra(Config.FOOD_IMAGE, 0)
 
-        binding.toolbar.setOnMenuItemClickListener {
-            if (it.itemId == R.id.done) {
-//                if (isEditEnabled)
-//                    update()
-//                else
-//                    saveData()
-            }
-            return@setOnMenuItemClickListener super.onOptionsItemSelected(it)
+        if (foodImage != 0) {
+            binding.toolbar.title = foodTitle
+            binding.foodTitle.text = foodTitle
+            binding.foodRecipe.text = foodRecipe
+            binding.foodImage.setImageResource(foodImage)
         }
     }
 
@@ -76,13 +83,7 @@ class ViewFood : AppCompatActivity() {
 
 
     // Toolbar menu setting
-    override fun onCreateOptionsMenu(menu: Menu?): Boolean {
-        menuInflater.inflate(R.menu.done_menu, menu)
-        return super.onCreateOptionsMenu(menu)
-    }
     private fun setUpToolbar() {
-
-        binding.toolbar.title = Config.ADD_FOOD
         setSupportActionBar(binding.toolbar)
         supportActionBar?.setDisplayHomeAsUpEnabled(true)
     }

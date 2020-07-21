@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	
+<string-array name="foodNames">
+<item>Lamb Tagine</item>
+<item>Loubia marocaine</item>
+<item>Tajine au poulet</item>
+<item>Tajine aux boulettes de viande et pommes de terre</item>
+<item>Tajine aux pruneaux et abricots</item>
+<item>Tajine de carottes, petits pois et pommes de terre</item>
+<item>Tajine de légumes</item>
+<item>Tajine De Poisson à la Marocaine</item>
+<item>Tajine de poulet aux amandes</item>
+<item>Tajine de sardines</item>
+<item>Tajine végétarien aux pruneaux</item>
+<item>Zaalouk</item>
+	</string-array>
+
+</resources>

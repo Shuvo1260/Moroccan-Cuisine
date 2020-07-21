@@ -19,7 +19,9 @@ android {
 
     buildTypes {
         release {
-            minifyEnabled false
+            shrinkResources true
+            minifyEnabled true
+            useProguard true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
@@ -92,6 +94,10 @@ dependencies {
 
     // Admob dependency
     implementation 'com.google.android.gms:play-services-ads:19.2.0'
+
+//    implementation 'org.apache.poi:poi:3.12'
+//    implementation 'org.apache.poi:poi-ooxml:3.12'
+//    implementation 'com.fasterxml:aalto-xml:1.0.0'
 
 
 }
