@@ -3,8 +3,28 @@
 
 	
 <string-array name="foodNames">
+<item>Baked falafels # vegan</item>
+<item>Baked tomatoes</item>
+<item>Bissara</item>
+<item>Carrot, peas and potato tagine</item>
+<item>Chermoula fish tagine</item>
+<item>Chicken tagine</item>
+<item>Chicken tagine with almonds</item>
+<item>Chicken tagine with apricots, prunes and toasted almonds</item>
+<item>From Vegetables  Tajine</item>
+<item>From Vegetables Tajine</item>
+<item>From Vegetables Tajine1</item>
 <item>Lamb Tagine</item>
 <item>Loubia marocaine</item>
+<item>Luciana-style octopus</item>
+<item>Meatball and potato tagine</item>
+<item>Moroccan Fish Tagine</item>
+<item>Moroccan lentils</item>
+<item>Mutton tagine</item>
+<item>Potato and minced meat tagine</item>
+<item>Sardine tagine</item>
+<item>Tagine with prunes and dried apricots</item>
+<item>Tajine aux petits pois et aux oeufs</item>
 <item>Tajine au poulet</item>
 <item>Tajine aux boulettes de viande et pommes de terre</item>
 <item>Tajine aux pruneaux et abricots</item>
@@ -14,6 +34,10 @@
 <item>Tajine de poulet aux amandes</item>
 <item>Tajine de sardines</item>
 <item>Tajine végétarien aux pruneaux</item>
+<item>Turkey tagine with fennel</item>
+<item>Vegetable tagine with wild peach and pistachio</item>
+<item>Vegetarian tagine with prunes</item>
+<item>Winter vegetable and dried fruit tagine</item>
 <item>Zaalouk</item>
 	</string-array>
 

@@ -12,7 +12,7 @@ class Config {
 
 
         // Toolbar
-        val HOME = "Foods"
+        val HOME = "Cuisiner Marocain"
         val ADD_FOOD = "Add new food"
 
 
